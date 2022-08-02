@@ -14,3 +14,10 @@ npm init -y
 ```
 npm i -D jest
 ```
+
+### Run tests:
+```
+npm test
+```
+
+Test suites are all the test files.
