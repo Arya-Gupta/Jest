@@ -2,6 +2,6 @@
 
 <h1 align="center">
   Jest
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/materialui/materialui-original.svg" alt="react" width="40" height="40"/> </a> <a href="https://jestjs.io" target="_blank" rel="noreferrer">
+  <a href="https://jestjs.io" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/jestjsio/jestjsio-icon.svg" alt="jest" width="40" height="40"/> </a>
 </h1>
 
