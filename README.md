@@ -20,5 +20,9 @@ npm i -D jest
 ```
 npm test
 ```
-
 Test suites are all the test files.
+
+### Install Axios:
+```
+npm i axios
+```
