@@ -1,5 +1,4 @@
-### Link to video <a href="https://www.youtube.com/watch?v=7r4xVDI2vho">here<a/>.
-### Link to documentation <a href="https://jestjs.io/">here<a/>.
+### View <a href="https://www.youtube.com/watch?v=7r4xVDI2vho">video<a/> and <a href="https://jestjs.io/">documentation<a/>.
 
 <h1 align="center">
   Jest
