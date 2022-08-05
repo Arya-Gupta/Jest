@@ -55,3 +55,53 @@ test('Basketball should be present in sports', () => {
     sports = ['Football', 'Cricket', 'Basketball', 'Tennis'];
     expect(sports).toContain('Basketball');
 })
+
+// Asynchronous data
+
+Promise
+test('User fetched name should be Leanne Graham', () => {
+    expect.assertions(1); 
+    // If we omit the return statement, the test will complete before our axios get
+    return functions.fetchUser()
+        .then(data => {
+            expect(data.name).toEqual('Leanne Graham');
+        });
+});
+
+
+// Async Await
+test('User fetched name should be Leanne Graham', async () => {
+    expect.assertions(1);
+    const data = await functions.fetchUser();
+    expect(data.name).toEqual('Leanne Graham');
+});
+
+
+
+
+const A = () => console.log('A');
+const B = () => console.log('B');
+const xyz = () => console.log('xyz');
+
+// Run any functionality before/after each test
+// beforeEach(() => A());
+// afterEach(() => B());
+
+// Run any functionality before/after executing all tests
+// beforeAll(() => A());
+// afterAll(() => B());
+
+// Run any functionality before/after a certain group of tests
+describe('Run any functionality before/after a certain group of tests', () => {
+    beforeEach(() => xyz());
+
+    test('Value of num is 1', () => {
+        const num = 1;
+        expect(num).toBe(1);
+    })
+
+    test('Value of num is 2', () => {
+        const num = 2;
+        expect(num).toBe(2);
+    })
+})
